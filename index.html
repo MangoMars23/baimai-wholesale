@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BaiMai Wholesale Thailand</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="BaiMai Wholesale Thailand home">
+        <img class="brand-logo" src="assets/bai-mai-wholesale.svg" alt="BaiMai Wholesale logo">
+        <span class="brand-wordmark">
+          <strong>BaiMai Wholesale</strong>
+          <small>Premium brands. Reliable distribution.</small>
+        </span>
+      </a>
+      <nav aria-label="Page sections">
+        <a class="is-active" href="#brands">Products</a>
+        <a href="#process">How to Order</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-content">
+          <div class="hero-panel">
+            <p class="eyebrow">Thailand Wholesale Distribution</p>
+            <h1 id="heroHeadline"></h1>
+            <p id="heroSubheadline" class="intro"></p>
+            <div class="hero-actions">
+              <a class="button primary hero-cta" href="#brands">View Products</a>
+              <a id="heroPricingCta" class="button secondary" target="_blank" rel="noreferrer">Request Pricing</a>
+            </div>
+            <div id="heroHighlights" class="service-notes" aria-label="Wholesale highlights"></div>
+          </div>
+          <aside class="hero-showcase" aria-label="Featured BaiPure and EnerGo products">
+            <div class="showcase-heading">
+              <span class="showcase-heading-line" aria-hidden="true"></span>
+              <span class="showcase-heading-copy">
+                <span class="showcase-heading-icon" aria-hidden="true"></span>
+                Red Hippo Drinks
+              </span>
+              <span class="showcase-heading-line" aria-hidden="true"></span>
+            </div>
+            <figure class="hero-range-figure">
+              <div class="hero-lineup" aria-label="BaiPure and EnerGo featured lineup">
+                <div class="hero-lineup-row hero-lineup-row-baipure">
+                  <div class="hero-lineup-item hero-lineup-item-baipure">
+                    <img src="assets/baipure-cutouts/original.png" alt="BaiPure Original bottle">
+                  </div>
+                  <div class="hero-lineup-item hero-lineup-item-baipure">
+                    <img src="assets/baipure-cutouts/yogurt.png" alt="BaiPure Yogurt bottle">
+                  </div>
+                  <div class="hero-lineup-item hero-lineup-item-baipure">
+                    <img src="assets/baipure-cutouts/raspberry.png" alt="BaiPure Raspberry bottle">
+                  </div>
+                  <div class="hero-lineup-item hero-lineup-item-baipure">
+                    <img src="assets/baipure-cutouts/plum.png" alt="BaiPure Plum bottle">
+                  </div>
+                  <div class="hero-lineup-item hero-lineup-item-baipure">
+                    <img src="assets/baipure-cutouts/grape.png" alt="BaiPure Grape bottle">
+                  </div>
+                  <div class="hero-lineup-item hero-lineup-item-baipure">
+                    <img src="assets/baipure-cutouts/peach.png" alt="BaiPure Peach bottle">
+                  </div>
+                </div>
+                <div class="hero-lineup-row hero-lineup-row-energo">
+                  <div class="hero-lineup-item hero-lineup-item-energo">
+                    <img src="assets/energo-original-hero.png" alt="EnerGo Original functional shot">
+                  </div>
+                  <div class="hero-lineup-item hero-lineup-item-energo">
+                    <img src="assets/energo-grape-hero.png" alt="EnerGo Grape functional shot">
+                  </div>
+                </div>
+              </div>
+            </figure>
+            <div class="showcase-card">
+              <strong>
+                <img class="showcase-card-logo" src="assets/red-hippo-official-square.jpg" alt="">
+                Red Hippo
+              </strong>
+              <div class="showcase-card-copy">
+                <span class="showcase-card-products">BaiPure &amp; EnerGo</span>
+                <span>Wholesale available across Thailand.</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="brands" class="section">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Featured products</p>
+            <h2>Featured Products</h2>
+            <p id="productsIntro" class="section-intro"></p>
+          </div>
+        </div>
+        <div class="carousel-shell">
+          <div class="carousel-controls" aria-label="Product carousel controls">
+            <button id="carouselPrev" class="carousel-control" type="button" aria-label="Show previous products">
+              <span aria-hidden="true">‹</span>
+            </button>
+            <button id="carouselNext" class="carousel-control" type="button" aria-label="Show more products">
+              <span aria-hidden="true">›</span>
+            </button>
+          </div>
+          <div class="carousel-fade carousel-fade-left" aria-hidden="true"></div>
+          <div class="carousel-fade carousel-fade-right" aria-hidden="true"></div>
+          <div class="product-carousel" aria-label="Featured wholesale products">
+            <div id="productCarouselTrack" class="product-carousel-track"></div>
+          </div>
+        </div>
+        <div class="carousel-cta-wrap">
+          <a id="productsPricingCta" class="button primary" target="_blank" rel="noreferrer">Request Wholesale Pricing</a>
+        </div>
+      </section>
+
+      <section id="process" class="section">
+        <div class="section-head">
+          <p class="eyebrow">How to order</p>
+          <h2>Simple wholesale ordering.</h2>
+        </div>
+        <div id="processGrid" class="process-grid"></div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="section-head">
+          <p class="eyebrow">Wholesale pricing</p>
+          <h2>Request Wholesale Pricing</h2>
+        </div>
+        <div class="contact-cta-card">
+          <h3>Start on WhatsApp</h3>
+          <p>
+            Message us on WhatsApp to receive pricing and recommended starter orders.
+          </p>
+          <div class="contact-cta-actions">
+            <a id="directWhatsApp" class="button primary" target="_blank" rel="noreferrer">Request Pricing on WhatsApp</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="assets/bai-mai-wholesale.svg" alt="BaiMai Wholesale logo">
+          <div>
+            <strong>BaiMai Wholesale</strong>
+            <span>Premium brands. Reliable distribution.</span>
+          </div>
+        </div>
+        <div class="footer-contact" aria-label="BaiMai Wholesale contact details">
+          <a id="footerWhatsApp" href="https://wa.me/66656142725" target="_blank" rel="noreferrer">
+            <span>WhatsApp</span>
+            <strong>+66 65 614 2725</strong>
+          </a>
+          <p>Thailand-Wide Wholesale Distribution</p>
+        </div>
+      </div>
+    </footer>
+
+    <a id="floatingWhatsApp" class="floating-whatsapp" target="_blank" rel="noreferrer" aria-label="Open wholesale WhatsApp inquiry">
+      <span>WhatsApp Pricing</span>
+    </a>
+
+    <script src="wholesale-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
