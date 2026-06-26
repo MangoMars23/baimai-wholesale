@@ -875,6 +875,7 @@ footer {
   width: 54px;
   height: 54px;
   object-fit: contain;
+  border-radius: 50%;
 }
 
 .footer-brand div {
